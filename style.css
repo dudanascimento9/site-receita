@@ -74,12 +74,13 @@ div.maior {
 }
 
 img.imagem {
-  max-height: 350px;
+  width: 100%;
   max-width: 700px;
-  border-radius: 25px;
-  margin-bottom: 30px;
-  display: block;
-  margin: auto;
+height: auto;
+border-radius: 25px;
+margin-bottom: 30px;
+display: block;
+margin: auto;
 }
 
 div {
