@@ -10,19 +10,19 @@
   src: url("fontes/CaviarDreams.ttf") format("truetype");
 }
 
-@font-face{
+@font-face {
   font-family: "coolvetica";
   src: url("fontes/Coolvetica Rg.otf") format("opentype");
 }
 
-@font-face{
+@font-face {
   font-family: "nexa";
   src: url("fontes/Nexa-Heavy.ttf") format("truetype");
 }
 
-@font-face{
+@font-face {
   font-family: "vintage";
-  src: url("fontes/Perfecty Vintages Font by Keithzo.otf") format("opentype")
+  src: url("fontes/Perfecty Vintages Font by Keithzo.otf") format("opentype");
 }
 
 :root {
@@ -49,108 +49,107 @@ body h1 {
   margin-left: 15px;
 }
 
-body h2{
+body h2 {
   padding-top: 40px;
   font-family: var(--fonte-destaque);
   font-weight: bolder;
   margin-left: 7px;
   padding-bottom: 10px;
-  color:  rgb(114, 79, 37);
+  color: rgb(114, 79, 37);
 }
 
 div.maior {
-  background-color: white;
-  min-width: 200px;
+  min-width: 300px;
   max-width: 700px;
+  background-color: white;
   margin: auto;
   margin-top: 80px;
-    margin-bottom: 50px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-img.imagem{
+img.imagem {
   max-height: 350px;
-    max-width: 460px;
-    border-radius: 25px;
-    margin-bottom: 30px;
-    padding-bottom: 5px;
-    display: block;
-    margin: auto;
-    
+  max-width: 600px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  display: block;
+  margin: auto;
 }
 
-div{
+div {
   margin: 10px;
   padding: 10px;
   text-align: justify;
 }
 
-h3{
+h3 {
   padding-top: 10px;
   font-family: var(--fonte-bold);
   font-weight: bolder;
   margin-left: 15px;
-  color:rgb(129, 85, 82);
+  color: rgb(129, 85, 82);
   padding-left: 35px;
 }
 
-h4{
+h4 {
   margin-left: 15px;
 }
 
-div.total{
+div.total {
   padding-left: 60px;
 }
 
-div.cuscuz{
+div.cuscuz {
   margin-left: 40px;
 }
 
-div.merluza-molho{
+div.merluza-molho {
   margin-left: 40px;
 }
 
-div.cuscuz-prep{
+div.cuscuz-prep {
   margin-left: 40px;
-
 }
 
-div.merluza-prep{
- margin-left: 40px;
+div.merluza-prep {
+  margin-left: 40px;
 }
 
-
-div.montagem{
-  padding:0px;
+div.montagem {
+  padding: 0px;
 }
 
-div.nutricao{
+div.nutricao {
   margin-left: 20px;
 }
 
-div.calorias{
+div.calorias {
   margin-left: 35px;
   word-spacing: 300px;
 }
 
-footer{
-  background-color:  rgb(99, 80, 60);
-    color: white;
-    text-align: center;
-    font-family: Arial;
-    font-size: 0.8em;
-    padding: 5px;
+footer {
+  background-color: rgb(99, 80, 60);
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 0.8em;
+  padding: 5px;
 }
 
-footer a{
+footer a {
   color: white;
   font-weight: bolder;
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
   color: var(--cor1);
 }
